@@ -1,0 +1,19 @@
+{
+    "roles": [
+      {
+        "role": "Admin",
+        "users": [
+          {"name": "Abraham", "password": "1234"},
+          {"name": "Hernando", "password": "4321"}
+        ]
+      },
+      {
+        "role": "Usuario",
+        "users": [
+          {"name": "Brayan", "password": "5678"},
+          {"name": "Marco", "password": "8765"},
+          {"name": "Dayana", "password": "0000"}
+        ]
+      }
+    ]
+  }

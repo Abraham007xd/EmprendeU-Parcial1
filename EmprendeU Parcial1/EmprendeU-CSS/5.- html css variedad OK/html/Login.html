@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión | EmprendeU</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        
+        .formulario{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 400px;
+            background: #007bff;
+            border-radius: 10px; 
+
+        }
+
+        .formulario h1{
+        background-color: #007bff;
+        color: #f8f9fa;
+        text-align: center;
+        padding: 0 0 20px 0;
+        border-bottom: 1px solid silver;
+        }
+        .formulario form{
+            padding: 0 40px;
+            box-sizing: border-box;
+        }
+        form .username{
+            position: relative;
+            border-bottom: 2px solid #adadad;
+            margin:30px 0;
+        }
+        .username inpu{
+            width: 100%;
+            padding: 0 5px;
+            height: 40px;
+            font-size: 10px;
+            border: none;
+            background: none;
+            outline: none;
+        }
+        form .contraseña{
+            position: relative;
+            border-bottom: 2px solid #adadad;
+            margin:20px 0;
+        }
+        .contraseña inpu{
+            width: 100%;
+            padding: 0 5px;
+            height: 40px;
+            font-size: 10px;
+            border: none;
+            background: none;
+            outline: none;
+        }
+        form .Iniciar{
+            position: relative;
+            margin:20px 0;
+        }
+        .Iniciar{
+            height: 23px;
+            border: 1px solid;
+            background: #adadad;
+            color: #f8f9fa;
+        }
+
+        
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+       <h1>Iniciar Sesión en EmprendeU</h1>
+    </header>
+    
+    <div class="formulario">
+        <h1>Inicio de sesion</h1>
+        <form method="post">
+            <div class="username">
+                <input type="text" required>
+                 <label>Usuario</label>
+            </div>
+            <div class="contraseña">
+                <input type="password" required>
+                 <label>contraseña</label>
+            </div>
+            <select style="text-align:center;">                <option selected="true">Elija su rol</option>
+                <option>Admin</option>
+                <option>Usuario</option></select> 
+
+            <div class="Iniciar">
+                <div class="items" style="text-align: center;">
+                    <a href="#" class="btn">Iniciar Sesión</a>
+                </div>
+            </div>
+            <div class="registrarse" style="text-align: center;">
+                quiero hacer el <a href="">resgitro</a>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>

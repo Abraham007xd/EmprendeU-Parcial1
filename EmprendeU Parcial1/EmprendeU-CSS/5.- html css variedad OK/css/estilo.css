@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif; /* Tipo de letra general */
+    background-color: #f8f9fa; /* Color de fondo */
+    color: black; /* Color del texto */
+    margin: 0; 
+    padding: 0; 
+}
+
+header {
+    text-align: center; /* centrado */
+    border: 1px blue solid; /* propiedades del border */
+    background-color: blue;
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.caja {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    display: flex; /* aplica flexbox para ubicar */
+    padding-left: 0%;
+    padding-right: 1%;
+}
+
+.caja2 {
+    color: rgb(82, 82, 82);
+    display: flex; /* aplica flexbox para ubicar */
+    padding-left: 2%;
+    padding-right: 1%;
+}
+
+.caja3 {
+    display: flex;
+    justify-content: center; /* Centrar el contenido dentro del div */
+    margin: 20px 0; /* Margen superior e inferior */
+}
+
+.caja3 .btn {
+    display: block; /* Cambiar a inline-block para ajustar el tamaño */
+    width: 150px; /* Ancho del botón */
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #0056b3; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    text-align: center; /* Centrar el texto del botón */
+    text-decoration: none; /* Quitar el subrayado del enlace */
+}
+
+.caja3 .btn:hover {
+    background-color: #004494; /* Color más oscuro al pasar el ratón */
+}
+
+/* Contenedor de cuadros */
+.container {
+    width: 90%;
+    max-width: 1200px; /* Ancho máximo */
+    margin: 0 auto; /* Centramos el contenedor */
+}
+
+/* Estilo de las filas */
+.row {
+    display: flex;
+    justify-content: space-between; /* Espacio entre columnas */
+    margin-top: 3rem; /* Margen superior */
+}
+
+/* Estilo de las columnas */
+.col {
+    flex: 1; /* Cada columna toma el mismo ancho */
+    margin: 0 1rem; /* Margen horizontal entre columnas */
+}
+
+/* Estilo de las tarjetas */
+.card {
+    border: 1px solid #ddd; /* Borde ligero */
+    border-radius: 0.5rem; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    background-color: white; /* Fondo blanco */
+}
+
+/* Estilos para el cuerpo de la tarjeta */
+.card-body {
+    padding: 1.5rem; /* Espaciado interno */
+}
+
+/* Títulos de las tarjetas */
+.card-title {
+    font-size: 1.5rem; /* Tamaño de fuente */
+    margin-bottom: 1rem; /* Margen inferior */
+}
+
+/* Estilo de listas no ordenadas */
+ul.list-unstyled {
+    list-style-type: none; /* Sin viñetas */
+    padding: 0; /* Sin espaciado interno */
+}
+
+/* Icono de check */
+.check-icon {
+    display: inline-block;
+    width: 1rem; /* Ancho del icono */
+    height: 1rem; /* Alto del icono */
+    background-color: green; /* Color de fondo */
+    border-radius: 50%; /* Redondeado */
+    margin-right: 0.5rem; /* Espacio entre icono y texto */
+}
+
+
+.contenedor {
+    display: flex; /* aplica flexbox para ubicar */
+    flex-wrap: wrap; /* en una misma línea o pueden fluir en varias líneas */
+    justify-content: center; /* centra un contenido */
+}
+
+.pie { 
+    text-align: center; /* centrado */
+    border: 2px blue solid; /* bordes y propiedades */
+    background-color: blue;
+    color: white;
+}
